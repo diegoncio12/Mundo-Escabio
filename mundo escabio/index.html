@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg " style="background-color: #704739;">
+            <div class="container-fluid">
+              <a class="navbar-brand" style="color:aliceblue" href="#">MUNDO ESCABIO</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" style="color:aliceblue" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color:aliceblue" href="#">Productos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" style="color:aliceblue" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      mas opciones
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">sobre nosotros</a></li>
+                      <li><a class="dropdown-item" href="#">blog</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">como llegar</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" style="color:aliceblue">contacto</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+ 
+
+    <main class="container-fluid">
+      <div>
+        <h1 class="title text-white text-center" id="ourProductos" >PRODUCTOS</h1>
+      </div>
+
+            <div class="row generalContainer">
+
+                <div class="col-8 productsContainer">
+                    <div class="row cards"></div>
+                </div>
+
+                <div class="col-4 cartContainer">
+
+                    <div class="container-fluid cart">
+
+                        <h2 class="text-center">Carrito</h2>
+
+                        <h3 class="text-center">TOTAL $<span class="visualTotal"> 0 </span></h3>
+
+                        <div class="row innerCart"></div>
+
+                        <div class="row cartBtns">
+                          <button type="button" class="btn btn-warning finalizar" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem; background-color:#ff702a">Finalizar Compra</button>
+                          <button type="button" class="btn btn-danger vaciar" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem; background-color:#ff702a">vaciar carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    
+    <section class="cta">
+
+      <h2>SABADO SIN ESCABIO <br> ES UN LUNES </h2>
+      <a href="#" class="btn">lets talk</a>
+
+  </section>
+
+    <section id="contactame">
+      <div class="footer">
+          <div class="main">
+              <div class="col">
+                  <h4>Menu</h4>
+                  <ul>
+                      <li><a href="#">home</a></li>
+                      <li><a href="#">about</a></li>
+                      <li><a href="#">galeria</a></li>
+                      <li><a href="#">servicios</a></li>
+                      <li><a href="#">contacto</a></li>
+                  </ul>
+              </div>
+
+              <div class="col">
+                  <h4>Servicios</h4>
+                  <ul>
+                      <li><a href="#">web design</a></li>
+                      <li><a href="#">web developer</a></li>
+                      <li><a href="#">marketing</a></li>
+                      <li><a href="#">produstos</a></li>
+                      <li><a href="#">graficos</a></li>
+                  </ul>
+              </div>
+
+              <div class="col">
+                  <h4>Informacion</h4>
+                  <ul>
+                      <li><a href="#">about</a></li>
+                      <li><a href="#">delibery</a></li>
+                      <li><a href="#">politica de privacidad</a></li>
+                      <li><a href="#">condiciones</a></li>
+                  </ul>
+              </div>
+
+              <div class="col">
+                  <h4>Contactame</h4>
+                  <div class="social">
+                      <a href=""><i class='bx bxl-facebook-circle'></i></a>
+                      <a href=""><i class='bx bxl-instagram-alt' ></i></a>
+                      <a href=""><i class='bx bxl-twitter' ></i></a>
+                      <a href=""><i class='bx bxl-twitch' ></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <script src="./js/index.js" type="module"></script>
+</body>
+</html>

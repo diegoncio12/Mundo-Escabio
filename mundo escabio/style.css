@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --main-color:#ff702a;
+    --text-color:#000;
+    --bg-color:#e2e1e6;
+    --big-font:4rem;
+    --h2-font:2.25rem;
+    --p-font:0,9rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background: var(--main-color);
+    color: #fff;
+    border-radius: 1.1rem;
+}
+
+.btn:hover{
+    transform: scale(1) translateY(2px);
+    transition: .3s;
+}
+
+header {
+    height: 10vh;
+}
+
+
+body{
+    background-color:rgb(37, 36, 36)  ;
+}
+.generalContainer {
+     margin:0 5px;
+    
+}
+
+.productsContainer{
+    height: 100%;
+    background-color: rgb(37, 36, 36);
+}
+
+.cartContainer{
+    height: 100%;
+    overflow: scroll;
+    background-color: azure;
+}
+
+.productoImg {
+    max-height: 250px;
+}
+
+.cartBtns {
+    margin: 15px 0;
+}
+
+.btn-warning{
+    margin: 5px 0;
+}
+
+
+section {
+    padding: 70px 15%;
+}
+
+.cta {
+    background: #704739;
+    padding: 70px 0;
+    text-align: center;
+    width: 66%;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+.cta h2 {
+    font-size: 2rem;
+    color: rgb(18, 15, 22);
+    margin-bottom: 30px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    padding: 10px 5px;
+}
+
+.col {
+    width: 25%;
+}
+
+.col h4 {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-bottom: 25px;
+    position: relative;
+}
+.col h4::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    left: 0;
+    bottom: -8px;
+    background: var(--main-color);
+}
+
+.col ul li:not(last-child){
+    margin-bottom: 15px;
+}
+
+.col ul li a{
+    color: rgb(153, 146, 136);
+    font-size: 1.1rem;
+    display: block;
+    text-transform: capitalize;
+    transition: .4s;
+}
+
+.col ul li a:hover {
+    color: var(--text-color);
+    transform: translateX(-5px);
+}
+
+.col .social {
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col .social a{
+    height: 40px;
+    width: 40px;
+    background: var(--main-color);
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    transition: .4s;
+}
+
+.col .social a:hover {
+    transform: scale(1.2);
+}
+
+
+
